@@ -1,0 +1,77 @@
+/* General settings */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+/* Navigation styles */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out; /*fun hover transition i found online */
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Main content styles */
+h1, h2, h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #007BFF;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #555;
+}
+
+h3.quote {
+    font-style: italic;
+    font-weight: normal;
+    margin: 20px 0;
+    color: #777;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+img {
+    display: block;
+    height: 500px;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
