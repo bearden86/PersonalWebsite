@@ -74,3 +74,12 @@ img {
     max-width: 100%;
     border-radius: 10px;
 }
+
+/* styling for dynamic greeting */
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
