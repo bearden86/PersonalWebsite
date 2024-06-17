@@ -23,3 +23,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const greetingElement = document.getElementById("greeting");    //targets the "greeting" id of the header in the index file
     greetingElement.textContent = getGreeting();    //calls the function "getGreeting" and sets the textContent of the greetingElement to the returned value
 });
+
+// per requirements for block 12:
+const form = document.querySelector('#form')
+const submitButton = document.querySelector('#submit')
+
+form.addEventListener('submit', (e) => {
+  submitButton.disabled = true
+  e.preventDefault()
+  window.location.href = window.location.origin + '/success.html'
+})
